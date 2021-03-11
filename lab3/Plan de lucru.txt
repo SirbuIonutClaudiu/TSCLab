@@ -1,0 +1,24 @@
+1. Comparam fisierele .sv din lab3/lab02_clocking_blocks cu cele din lab2/lab01_testbench-interface
+   1a) Folosim meld din linia de camanda 
+   1b) Analizam diferente
+
+2. Actualizam scripturi de rulare pt automatizare
+   2a) lab3/tools analizam fisiere/scripturi
+   2b) lab3/tools rulam run_test.bat, analizam/intelegem ce se intampla (check ../sim)
+   2c) lab3/tools update la sources
+   2d) lab3/tools rulam run_test.bat, analizam/intelegem ce se intampla
+
+3. Citim/intelegem "SystemVerilog for Verification ... pdf" capitolul 4.3 (fara 4.3.4) si 4.4
+   3a) Clarificam Intrebari/nelamuriri
+
+4. Analizam top.sv clk/test_clk generation. Creem un clock unic pt design si testbench
+   4a) Simulam/Vizualizam "forme de unde" (run_test.bat)
+   4b) Salvam "forme de unde" in tools/wave.do (de ce nu este bine in sim/wave.do)
+
+5. Actualizam lab3/lab02_clocking_blocks/
+   5a) Actualizam tb_ifc.sv cu Clocking Block (vezi pdf)
+   5b) Actualizam instr_register_test.sv cu Clocking Block (vezi pdf)
+   5c) Simulam/vizualizam "forme de unde" 
+
+6. GIT push
+
